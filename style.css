@@ -1,0 +1,221 @@
+body ,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+}
+header {
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(71, 70, 70);
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    display: flex;
+  
+}
+.search{
+    margin: 30px;
+}
+form.input1 button {
+    float: right;
+    width: 30px;
+    padding: 0px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.input1 button:hover {
+    background: #0b7dda;
+  }
+  
+  form.input1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.list a {
+    color: blanchedalmond;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1.5rem;
+    padding: 20px;
+    padding-bottom:0px ;
+    margin-bottom: 0;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    /* justify-content: flex-end; */
+}
+
+.list a:hover{
+    background-color: cadetblue;
+    transform: scale(0.5s);
+    
+}
+
+.header-image {
+    height: 80px;
+    width: 80px;
+    float: left;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
+}
+
+ main{
+    scroll-margin-top: 0;
+    scroll-padding-top: 0;
+    text-align: center;
+    background-image: url(image-food.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    background-size: cover;
+    height: 60vh;
+    color: rgba(0, 0, 0, 0.979);
+}
+h1 {
+    /* padding: 0; */
+    margin: 0px;
+    font-size: xxx-large;
+}
+h2 img{
+    height: 60px;
+    width: 90px;
+    margin-bottom: -20;
+}
+.second-section{
+    margin-top: 150px;
+    /* min-height: 50vh; */
+}
+form.input2 button {
+    float: right;
+    width: 30px;
+    padding: 0px;
+    background: rgb(89, 107, 121);
+    color: white;
+    font-size: 33px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.input2 button:hover {
+    background: #113b5e;
+  }
+  
+  form.input2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .bestellungsfeld{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      /* margin: 30px; */
+      
+
+  }
+  .bestellen {
+      color: rgb(0, 0, 0);
+      text-decoration: none;
+      background-color:rgb(248, 220, 220) ;
+      padding: 8px;
+      margin-right: 0px;
+      border: none;
+      margin-bottom: 0px;
+      margin-right: 20px;
+     
+      
+  }
+
+.third-section{
+    margin-top: 180px;
+    /* min-height: 500px; */
+}
+
+.first-image{
+    box-sizing: content-box;
+    height:  500px;
+    max-width: 100%;
+}
+
+.footer {
+    background-color: rgb(46, 43, 43);
+    
+}
+.footer-list  {
+    list-style: none; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    
+    
+}
+.footer-list a  , .footer-list2 a{
+    
+    color: rgb(248, 246, 241);
+    
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+    padding: 20px;
+    padding-bottom:0px ;
+    margin-bottom: 0;
+    transition: all 0.5s;
+}
+
+.footer-list2  {
+    list-style: none; 
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+  .footer-list2 a:hover{
+transform: scale(0.5s);
+background-color: rgb(94, 89, 89);
+border-radius: 30px;
+cursor: pointer;
+}
+
+.web{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.web:hover{
+    background-color: blanchedalmond;
+}
